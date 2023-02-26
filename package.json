@@ -9,7 +9,7 @@
     "dev": "yarn client:dev",
     "client:dev": "yarn --cwd client dev",
     "build": "yarn client:build",
-    "client:build": "yarn --cwd client build & yarn copy ./client/dist ./dist"
+    "client:build": "yarn --cwd client build & yarn cpx client/dist/**/* ./staging"
   },
   "author": "soray677 <soray677@outlook.com>",
   "license": "MIT",
