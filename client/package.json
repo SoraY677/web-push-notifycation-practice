@@ -6,7 +6,7 @@
   "scripts": {
     "setup": "yarn",
     "dev": "vite --host",
-    "build": "vite build & yarn cpx -C client/dist/**/* staging",
+    "build": "vite build --base=./ & yarn cpx -C client/dist/**/* staging",
     "preview": "vite preview"
   },
   "devDependencies": {
