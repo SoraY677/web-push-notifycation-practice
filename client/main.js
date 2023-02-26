@@ -6,7 +6,7 @@ const arrowPushNotificationButton = document.getElementById(
 );
 arrowPushNotificationButton?.addEventListener("click", () => {
   Notification.requestPermission().then((permission) => {
-    console.log(permission);
+    alert(permission);
   });
 });
 
