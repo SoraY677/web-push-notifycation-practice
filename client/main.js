@@ -9,3 +9,11 @@ arrowPushNotificationButton?.addEventListener("click", () => {
     console.log(permission);
   });
 });
+
+// send notification
+const sendPushNotificationButton = document.getElementById(
+  "sendPushNotificationButton"
+);
+sendPushNotificationButton.addEventListener("click", () => {
+  new Notification("Hello :-) Can you see this message ??");
+});
