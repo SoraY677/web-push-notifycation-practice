@@ -1,6 +1,0 @@
-#!/bin/bash
-
-yarn build
-git add ./staging
-
-exit 0
