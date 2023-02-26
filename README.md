@@ -1,2 +1,7 @@
-# web-push-notifycation-practice
-iOS16 new feature " web push notification" practice library
+# Web Push Notification Test
+
+URL: https://soray677.github.io/web-push-notifycation-practice/staging/
+
+# Quote
+
+https://qiita.com/ozaki25/items/b35e5c907c756e704d23
