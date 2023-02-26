@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "setup": "yarn",
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "vite build & yarn cpx -C client/dist/**/* staging",
     "preview": "vite preview"
   },
   "devDependencies": {
