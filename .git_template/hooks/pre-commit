@@ -1,0 +1,8 @@
+#!/bin/bash
+
+exec yarn build
+
+exec git add ./staging
+exec git commit -m "build"
+
+exec 0
